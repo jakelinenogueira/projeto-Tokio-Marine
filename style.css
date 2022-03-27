@@ -1,0 +1,759 @@
+   * {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter';
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Tela login*/
+.login {
+    padding: 0 80px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.login .register {
+    font-weight: 400;
+    font-size: 1em;
+    align-self: flex-end;
+    padding-top: 40px;
+}
+
+.login img {
+    width: 40%;
+    max-width: 250px;
+    padding: 30px 0;
+}
+
+.login h1 {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.text-login {
+    font-weight: 400;
+    font-size: 1em;
+    color: #888888;
+    margin: 25px 0 8px 0;
+}
+
+.login input {
+    width: 100%;
+    height: 49px;
+    background-color: #F3F3F3;
+    border: 1px solid #979797;
+    border-radius: 8px;
+    position: relative;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login input[type="passaword"] {
+   position: relative;
+}
+
+.login i {
+    font-size: 18px;
+    color:  #303030;
+    position: relative;
+    top: 32px;
+    z-index: 2;
+    margin-right: 10px;
+    align-self: end;
+}
+
+
+.login .forgot-password {
+    font-weight: 600;
+    font-size: 1em;
+    color: #007F81;
+    align-self: flex-end;
+    padding-top: 15px;
+}
+
+.login a:hover {
+    color: #007F81;
+}
+
+.login .enter {
+    width: 50%;
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    background-color: #BA811C;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+.image{
+    position: relative;
+    z-index: 1;
+    height: 100vh;
+    background-image: url(./assets/image\ 49.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image-background img {
+    display: none;
+}
+
+/* Tela Customizar*/
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #fff;
+    margin: 20px 0;
+}
+
+.logo img {
+    width: 10%;
+    align-self: center;
+}
+
+
+.choose-video {
+    background-color: #fff;
+    border-top: 1px solid #E3E3E3;
+    padding: 20px 0 20px 80px;
+}
+
+.choose-video i {
+    color:  #007F81;
+    font-size: 1.5em;
+    padding-right: 15px;
+}
+
+.choose-video span {
+    font-size: 1.5em;
+    line-height: 17px;
+    color:  #007F81;
+}
+
+#customize-video {
+    background-color: #23755E;
+}
+
+.text-template {
+    display: none;
+}
+
+.text-customize {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 0;
+}   
+
+.text-customize h1 {
+    font-weight: 600;
+    font-size: 2.3em;
+    color: #fff;
+}
+
+.text-customize p {
+    font-size: 1.2em;
+    color: #fff;
+    margin: 0;
+}
+
+.display-customize {
+    display: flex;
+    flex-direction: row;
+}
+
+.subsidiary {
+    width: 80%;
+    background-color: #0D5944;
+    border-radius: 8px;
+    padding: 15px 20px;
+}
+
+.subsidiary h2 {
+    font-size: 1.8em;
+    color: #fff;
+}
+
+.subsidiary p {
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.subsidiary input {
+    width: 100%;
+    height: 40px;
+    background-color: #F3F3F3;
+    border: 1px solid #979797;
+    border-radius: 8px;
+}
+
+
+.data p {
+    font-size: 1.4em;
+    color: #F3F3F3;
+    margin-bottom: 15px;
+}
+
+.data input {
+    width: 90%;
+    height: 40px;
+    background-color: #F3F3F3;
+    border: 1px solid #979797;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.tel input {
+    width: 81%;
+}
+
+.data span{
+    width: 10%;
+    height: 40px;
+    font-size: 1.1em;
+    background-color: #F3F3F3;
+    color: #007F81;
+    border: 1px solid #979797;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 0 8px;
+}
+
+.data input[type="file"] {
+    display: none;
+}
+
+.data label {
+    width: 40%;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 1em;
+    margin-bottom: 40px;
+    padding: 10px 0;
+    text-align: center;
+    cursor: pointer;
+}
+.generate-video {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.generate-video button {
+    padding: 20px 20px;
+    margin: 20px 0;
+    background-color: #888888;
+    border: none;
+    border-radius: 8px;
+    color: #F3F3F3;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/*Tela Criar */
+#create-video {
+    background-color: #FBF7F7;
+    border-top: 1px solid #E3E3E3;
+    padding: 100px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.image-video {
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    background-color:#23755E;
+    border-radius: 8px;
+    margin-right: 40px;
+}
+
+.image-video img {
+    width: 50%;
+}
+
+.share-video h1 {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #303030;
+    margin-bottom: 15px;
+}
+
+.share-video p {
+    font-size: 1.2em;
+    line-height: 17px;
+    color:  #888888;
+    margin-bottom: 30px;
+}
+
+.share-video button {
+    width: 90%;
+    height: 53px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid #007F81;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: #007F81;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.buttons-mobile {
+    display: none;
+}
+
+.share-video i {
+    font-size: 1.6em;
+    padding: 0 40px 0 20px;
+}
+
+.colorful-footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    background: linear-gradient(270.41deg, #03A189 3.43%, #DDC763 99.67%);
+}
+
+.colorful-footer h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.desktop-hidden {
+    display: none;
+}
+
+.display-create {
+    display: flex;
+    flex-direction: column;
+}
+
+#modal {
+    display: none;
+}
+
+
+
+#modal.modal-content{
+    align-self: center;
+    margin-top: 150px;
+    position: absolute;
+    z-index: 4;
+    width: 350px;
+    height: 350px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    box-shadow: 0px 31px 54px rgba(0, 0, 0, 0.99);
+    border-radius: 8px;
+}
+
+.modal-content i {
+    color: #007F81;
+    font-size: 70px;
+}
+
+.modal-content p {
+    margin: 50px 0;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #303030;
+}
+
+.modal-content button {
+    padding: 10px 50px;
+    background-color: #BA811C;
+    border: none;
+    border-radius: 8px;
+    color: #F3F3F3;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+
+/*Tela Visualizar*/
+.subHeader {
+    background: linear-gradient(270.41deg, #03A189 3.43%, #DDC763 99.67%);
+}
+
+.colorful-header {
+    padding: 15px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.colorful-header h1 {
+    width: 65%;
+    font-size: 2.2em;
+    font-weight: 600;
+    color: #fff;
+}
+
+.colorful-header p {
+    width: 35%;
+    padding-left: 10px;
+    margin: 0;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #fff;  
+}
+
+
+#view-videos {
+    background-color: #E5E5E5;
+}
+
+.button-views {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.button-views h2 {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #1D1D1D;
+}
+
+.button-views button {
+    padding: 10px 15px;
+    background-color: #BA811C;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+    color: #FFF;
+}
+
+.button-views i{
+    padding-left: 10px;
+} 
+
+.insurance {
+    margin-bottom: 40px
+}
+
+
+.insurance-background {
+    background-color: #23755E;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    padding: 15px 0;
+}
+
+.insurance p {
+    font-size: 1.2em;
+    color:  #1D1D1D;
+}
+
+.button-view-more-mobile {
+    display: none;
+}
+
+
+/*Tela Buscar*/
+
+#search-videos {
+    background-color: #E5E5E5;
+    padding: 30px 0;
+}
+
+.input-search input {
+    position: relative;
+    width: 100%; 
+    background: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 60px;
+}
+
+.input-search i {
+    position: absolute;
+    z-index: 2;
+    font-size: 18px;
+    color: #303030;
+    padding: 20px 0 20px 20px;
+}
+
+.buttons-search {
+    display: flex;
+    padding: 30px 0 50px 0;
+}
+
+.buttons-search button {
+    padding: 5px 15px;
+    margin-right: 10px;
+    background-color: #E3E3E3;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    color:  #979797;
+}
+
+.buttons-search button:hover {
+    background-color: #BA811C;
+    color: #fff;
+}
+
+.buttons-search .active {
+    background-color: #BA811C;
+    color: #fff;
+
+}
+
+.button-releases-mobile {
+    display: none;
+}
+
+
+/*Media queries*/
+@media(max-width:767px) {
+    .mobile-direction {
+        flex-direction: column-reverse;
+    }
+
+    .mobile-hidden {
+        display: none;
+    }
+
+    .image {
+        position: relative;
+        height: 487px;
+    }
+
+    .image-background img {
+        padding: 50px 50px;
+        width: 50%;
+        display: block;
+     }
+
+    .login {
+        width: 100%;
+        position: absolute;
+        z-index: 2;
+        top: 460px;
+        border-radius: 27px 27px 0 0;
+    }
+
+    .login h1{
+        margin-top: 20px;
+        font-size: 23px;
+    }
+
+   .login .enter {
+       width: 200px;
+       margin-top: 20px;
+    }
+
+    .login .center {
+        align-self: center;
+    }
+
+    .login .register {
+        order: 4;
+        align-self: center;
+        font-size: 12px;
+    }
+
+    .logo img {
+        width: 30%;
+    }
+
+    .choose-video {
+        border: none;
+        padding: 10px 0 10px 30px;
+    }
+
+    .subsidiary {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .subsidiary p {
+        font-size: 0.9em;
+    }
+
+    .text-template {
+        display: inline-block;
+        font-size: 19px !important;
+    }
+
+    .text-customize h1 {
+        font-size: 1.8em;
+    }
+
+    .text-customize p {
+        font-size: 0.9em;
+    }
+
+    .data form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .field {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .field label {
+        margin-left: 20px;
+    }
+   
+    .field p {
+        padding-left: 30px;
+    }
+
+    .field input {
+        width: 90%;
+        align-self: center;
+    }
+
+    .broker {
+        order: 1;
+    }
+
+    .label {
+        order: 2;
+    }
+
+    .tel {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .tel input {
+        width: 77%;
+    }
+
+    #create-video {
+        padding: 40px 0;
+    }
+    
+    .image-video {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    .share-video {
+        text-align: center;
+    }
+
+    .share-video h1 {
+        font-size: 1.6em;
+    }
+
+    .share-video p {
+        margin-bottom: 40px;
+    }
+
+    .button-releases-mobile {
+        display: block;
+    
+    }
+ 
+    .colorful-footer h2 {
+        width: 50%;
+        font-size: 1.3em;
+    }
+
+    .colorful-header h1 {
+        width: 50%;
+        font-size: 1.3em;
+    }
+
+    .colorful-header p {
+        font-size: 0.8em;
+    }
+
+    #view-videos {
+        background-color:  #FBF7F7;
+    }
+
+    .button-view-more-mobile {
+        display: block;
+        text-align: center;
+    }
+
+    .button-view-more-mobile button {
+        padding: 15px 45px;
+        font-weight: 700;
+    }
+
+
+     #search-videos {
+         background-color: #FBF7F7;
+     }
+
+     .insurance p{
+         font-weight: 600;
+     }
+
+     .button-releases-mobile i{
+         font-size: 1.5em;
+         color: #007F81;
+     }
+
+     .button-views h2 {
+        font-size: 17px;
+     }
+
+     .desktop-hidden {
+         display: block;
+     }
+    
+     .color-text-view a {
+        color:#888888;
+     }
+
+     .color-text-view a:hover {
+        color: #ffff;
+     }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .login .register  {
+          font-size: 12px;
+      }   
+
+    .login .mobile-hidden {
+        width: 50%;
+    }
+
+    .login h1 {
+        font-size: 23px;
+    }
+
+    .logo img {
+        width: 20%;
+    }
+}
